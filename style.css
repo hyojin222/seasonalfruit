@@ -1,4 +1,6 @@
 body {
+    width: 1920px;
+    height: 1080px;
     margin: 0;
     padding: 0;
     background-color: rgb(243, 255, 237);
@@ -386,7 +388,7 @@ main {
 }
 
 /* 물고기 */
-.fish-container{
+.fish-container {
     width: 347px;
     height: 180px;
     left: 286px;
@@ -413,7 +415,7 @@ main {
     transition: all 1s;
 }
 
-.fish-container:hover .fish{
+.fish-container:hover .fish {
     transform: scale(1) translateY(-180px) translateX(80px) rotate(430deg);
     filter: drop-shadow(0 0 20px rgb(255, 255, 255));
 }
