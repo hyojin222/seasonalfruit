@@ -111,7 +111,7 @@ main {
     position: relative;
     width: 1920px;
     height: 660px;
-    margin: 0 auto;
+    padding: 0 auto;
     background: url('images/grass.png'), url('images/watermelon_front.png'), url('images/watermelon_back.png'), url('images/koreanmelon_back.png'), url('images/peachtree.png'), url('images/grapetree.png'), url('images/bg.png');
     background-repeat: no-repeat;
     background-position: left 0px top 335px, left 1164px top 427px, left 1071px top 483px, left 755px top 428px, left 0px top 43px, left 972px top 61px, 50% 50%;
@@ -388,7 +388,7 @@ main {
 }
 
 /* 물고기 */
-.fish-container {
+.fish-container{
     width: 347px;
     height: 180px;
     left: 286px;
@@ -415,7 +415,7 @@ main {
     transition: all 1s;
 }
 
-.fish-container:hover .fish {
+.fish-container:hover .fish{
     transform: scale(1) translateY(-180px) translateX(80px) rotate(430deg);
     filter: drop-shadow(0 0 20px rgb(255, 255, 255));
 }
@@ -426,6 +426,6 @@ footer {
     color: rgb(153, 153, 153);
     cursor: default;
     text-align: center;
-    margin: 80px 0;
+    padding: 50px;
     transform-origin: center;
 }
